@@ -1,0 +1,118 @@
+{
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "materialTheme.accent": "Acid Lime",
+
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.detectIndentation": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.accessibilitySupport": "off",
+
+    "vim.leader": "<Space>",
+    "vim.handleKeys": {
+        "<C-p>": false
+    },
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<Leader>", "y"],
+            "after": ["\"", "*", "y"]
+        },
+        {
+            "before": ["<Leader>", "p"],
+            "after": ["\"", "*", "p"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<Leader>", "y"],
+            "after": ["\"", "*", "y"]
+        },
+        {
+            "before": ["<Leader>", "p"],
+            "after": ["\"", "*", "p"]
+        }
+    ],
+
+    "explorer.confirmDragAndDrop": false,
+    "color-highlight.languages": [
+        "css",
+        "scss",
+        "sass",
+        "less",
+        "html"
+    ],
+    "playwright.showTrace": false,
+    "playwright.reuseBrowser": true,
+
+    "prettier.printWidth": 100,
+    "eslint.format.enable": true,
+    "eslint.validate": [
+        "javascript"
+    ],
+
+    "zig.zls.enabled": "on",
+    "xml.format.maxLineWidth": 120,
+    "yaml.format.printWidth": 100,
+    "redhat.telemetry.enabled": false,
+    "dotnet.automaticallyCreateSolutionInWorkspace": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "powershell.promptToUpdatePowerShell": false,
+
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "[yaml]": {
+        "prettier.singleQuote": false
+    },
+    "[yml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "prettier.singleQuote": false
+    },
+    "[dockercompose]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[zig]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "ziglang.vscode-zig",
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "files.eol": "\n"
+    },
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell"
+    }
+}
