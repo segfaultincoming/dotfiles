@@ -1,13 +1,14 @@
 Write-Output "⏳ Loading profile"
 
+# https://github.com/ajeetdsouza/zoxide
 $zoxide = Get-Command zoxide -ErrorAction SilentlyContinue
-
 if (-not $zoxide) {
     Write-Output "⏳ Installing zoxide..."
     winget install ajeetdsouza.zoxide --silent
 }
 Write-Output "✅ zoxide"
 
+# https://github.com/junegunn/fzf
 $fzf = Get-Command fzf -ErrorAction SilentlyContinue
 if (-not $fzf) {
     Write-Output "⏳ Installing fzf..."
